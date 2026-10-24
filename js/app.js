@@ -23,7 +23,18 @@ function sumita(b) {
 sumita(5);
 console.log(sumita(5));
 
-function suma2(a, b) {
+function sumas(a, b) {
+    console.log(arguments);
     return a + b;
 }
-console.log(suma2(4, 5));
+console.log(sumas(4, 5));
+console.log(typeof sumas);
+// let resultado = sumas(4, 5,6,7,8);
+
+
+function sumando (c,d){
+    console.log(arguments);
+    return c + d;
+}
+let res= sumando(5,6,1,2,3);
+console.log(res);
